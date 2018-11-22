@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.*?>
+
+<?import com.soft1841.oop.week1.MyButton?>
+<?import com.soft1841.oop.week1.MyLabel?>
+<?import com.soft1841.oop.week1.MyTextField?>
+<?import com.soft1841.oop.week1.OurLabel?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.oop.week1.ButtonController">
+    <MyButton AnchorPane.leftAnchor="310"
+              AnchorPane.topAnchor="320" styleClass="B10" fx:id="B0"/>
+    <MyButton AnchorPane.leftAnchor="610"
+              AnchorPane.topAnchor="320" styleClass="B11" fx:id="B1"/>
+    <MyButton AnchorPane.leftAnchor="910"
+              AnchorPane.topAnchor="320" styleClass="B12" fx:id="B2"/>
+    <MyButton AnchorPane.leftAnchor="1210"
+              AnchorPane.topAnchor="320" styleClass="B13" fx:id="B3"/>
+    <MyButton AnchorPane.leftAnchor="1510"
+              AnchorPane.topAnchor="320" styleClass="B14" fx:id="B4"/>
+    <MyButton AnchorPane.leftAnchor="310"
+              AnchorPane.topAnchor="620" styleClass="B15" fx:id="B5"/>
+    <MyButton AnchorPane.leftAnchor="610"
+              AnchorPane.topAnchor="620" styleClass="B16" fx:id="B6"/>
+    <MyButton AnchorPane.leftAnchor="910"
+              AnchorPane.topAnchor="620" styleClass="B17" fx:id="B7"/>
+    <MyButton AnchorPane.leftAnchor="1210"
+              AnchorPane.topAnchor="620" styleClass="B18" fx:id="B8"/>
+    <MyButton AnchorPane.leftAnchor="1510"
+              AnchorPane.topAnchor="620" styleClass="B19" fx:id="B9"/>
+    <MyLabel text="设 置" AnchorPane.topAnchor="510" AnchorPane.leftAnchor="370"/>
+    <MyLabel text="百 度" AnchorPane.topAnchor="510" AnchorPane.leftAnchor="670"/>
+    <MyLabel text="知 乎" AnchorPane.topAnchor="510" AnchorPane.leftAnchor="970"/>
+    <MyLabel text="IT之家" AnchorPane.topAnchor="510" AnchorPane.leftAnchor="1270"/>
+    <MyLabel text="贴 吧" AnchorPane.topAnchor="510" AnchorPane.leftAnchor="1570"/>
+    <MyLabel text="阿里云" AnchorPane.topAnchor="810" AnchorPane.leftAnchor="365"/>
+    <MyLabel text="CSDN" AnchorPane.topAnchor="810" AnchorPane.leftAnchor="665"/>
+    <MyLabel text="简 书" AnchorPane.topAnchor="810" AnchorPane.leftAnchor="970"/>
+    <MyLabel text="GitHub" AnchorPane.topAnchor="810" AnchorPane.leftAnchor="1265"/>
+    <MyLabel text="码 云" AnchorPane.topAnchor="810" AnchorPane.leftAnchor="1565"/>
+    <MyTextField text="输入并搜索..." AnchorPane.leftAnchor="480"
+                   AnchorPane.topAnchor="200" styleClass="T0" />
+    <OurLabel text="网页" AnchorPane.topAnchor="140" AnchorPane.leftAnchor="550" />
+    <OurLabel text="图片" AnchorPane.topAnchor="140" AnchorPane.leftAnchor="750" />
+    <OurLabel text="新闻" AnchorPane.topAnchor="140" AnchorPane.leftAnchor="950" />
+    <OurLabel text="视频" AnchorPane.topAnchor="140" AnchorPane.leftAnchor="1150"/>
+    <OurLabel text="地图" AnchorPane.topAnchor="140" AnchorPane.leftAnchor="1350" />
+
+
+
+
+
+
+
+</AnchorPane>
